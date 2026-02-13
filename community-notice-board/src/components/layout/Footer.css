@@ -1,0 +1,148 @@
+.footer {
+  background: #f8fafc;
+  margin-top: 80px;
+}
+
+/* Light Blue Curved Section */
+.newsletter-wrapper {
+  background: #cce0ff;
+  padding: 80px 0;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 300px;
+  border-bottom-left-radius: 50px;
+  position: relative;
+}
+
+/* Newsletter Card */
+.newsletter-card {
+  max-width: 900px;
+  margin: auto;
+  background: linear-gradient(135deg, #181d32, #4a6cf7);
+  padding: 50px 40px;
+  border-radius: 18px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 20px 50px rgba(74, 108, 247, 0.25);
+}
+
+.newsletter-card h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.newsletter-card p {
+  font-size: 15px;
+  margin-bottom: 25px;
+  opacity: 0.95;
+}
+
+.newsletter-input {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.newsletter-input input {
+  padding: 14px 18px;
+  border-radius: 40px;
+  border: none;
+  width: 280px;
+  outline: none;
+  font-size: 14px;
+}
+
+.newsletter-input button {
+  padding: 14px 28px;
+  border-radius: 40px;
+  border: none;
+  background: white;
+  color: #4a6cf7;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.newsletter-input button:hover {
+  transform: scale(1.05);
+}
+
+/* Footer Content Section */
+.footer-container {
+  max-width: 1200px;
+  margin: 60px auto 20px;
+  
+  padding: 60px ;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+
+}
+
+.footer-brand h2 {
+  margin-bottom: 15px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.footer-links h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #6b7280;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.footer-links li:hover {
+  color: #4a6cf7;
+  transform: translateX(4px);
+}
+
+/* Bottom */
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+
+
+
+
+
+
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+}
+
+.social-icons svg {
+  cursor: pointer;
+  color: #6b7280;
+  transition: 0.3s ease;
+}
+
+.social-icons svg:hover {
+  color: #4a6cf7;
+  transform: translateY(-4px);
+}
